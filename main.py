@@ -15,11 +15,11 @@ client = discord.Client(intents=intents)
 client = commands.Bot(command_prefix='-', intents=intents)
 
 
-reddit = praw.Reddit(client_id='0N3VIPqMagCInA',
-                     client_secret='DdlqcmNcEX4k_DTKMapGi0QXkeRbvQ',
-                     user_agent='st1fe',
-                     username="st1fe",
-                     password="Tequila77",
+reddit = praw.Reddit(client_id='ID',
+                     client_secret='SECRET',
+                     user_agent='NAME',
+                     username="USERNAME",
+                     password="PASS",
                      check_for_async=False)
 
 @client.event
