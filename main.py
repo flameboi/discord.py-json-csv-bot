@@ -15,6 +15,7 @@ client = discord.Client(intents=intents)
 client = commands.Bot(command_prefix='-', intents=intents)
 
 
+
 reddit = praw.Reddit(client_id='ID',
                      client_secret='SECRET',
                      user_agent='NAME',
